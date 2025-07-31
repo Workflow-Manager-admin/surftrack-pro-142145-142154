@@ -1,0 +1,99 @@
+.modal-bg {
+  position: fixed;
+  inset: 0;
+  background: #0007;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.log-form {
+  background: linear-gradient(120deg, #f1e9d1 88%, #1de9b61a 100%);
+  border-radius: 22px;
+  box-shadow: 0 8px 54px #017ea227;
+  padding: 28px 22px 16px 22px;
+  min-width: 300px;
+  max-width: 96vw;
+  margin: 12px;
+  color: #194757;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  border: 2px solid #1de9b620;
+}
+.log-form h2 {
+  text-align: center;
+  color: #017ea2;
+  margin-bottom: 14px;
+}
+.log-form label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #017ea2d0;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.log-form input, .log-form textarea {
+  border: 1.5px solid #bae7e1;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+.log-form textarea {
+  resize: none;
+}
+.mood-row {
+  display: flex;
+  gap: 5px;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+.mood-btn {
+  font-size: 1.28rem;
+  border: 2px solid #1de9b65a;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2px 6px;
+  cursor: pointer;
+  transition: border 0.12s, background 0.11s;
+}
+.mood-btn.selected, .mood-btn:active {
+  background: #e0f7f6;
+  border: 2px solid #1de9b6;
+}
+.log-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  margin-top: 8px;
+}
+.save-btn {
+  background: #1de9b6;
+  color: #017ea2;
+  padding: 7px 18px;
+  border-radius: 16px;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.cancel-btn {
+  background: #fff;
+  border: 2px solid #f1e9d1;
+  color: #a3843d;
+  padding: 7px 17px;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: 0.98rem;
+  cursor: pointer;
+}
+@media (max-width: 400px) {
+  .log-form {
+    min-width: 0; padding: 16px 6px 10px 6px;
+  }
+}

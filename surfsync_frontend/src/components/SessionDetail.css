@@ -1,0 +1,73 @@
+.detail-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #a1dbef 0%, #f1e9d1 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 44px;
+}
+.detail-card {
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 7px 34px #1de9b644;
+  padding: 24px 28px 18px 24px;
+  max-width: 400px;
+  width: 97vw;
+  margin: 0 auto;
+  font-size: 1.07rem;
+  color: #146184;
+  border: 2.4px solid #a1dbef88;
+  position: relative;
+}
+.back-btn {
+  position: absolute;
+  left: 14px;
+  top: 16px;
+  background: none;
+  border: none;
+  color: #017ea2;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.detail-top-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  gap: 11px;
+}
+.mood-emoji {
+  font-size: 2.1rem;
+  margin-right: 3px;
+}
+.detail-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #017ea2;
+}
+.detail-list > div {
+  margin-bottom: 11px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.detail-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+.edit-btn, .delete-btn {
+  background: #1de9b6;
+  color: #017ea2;
+  font-weight: bold;
+  padding: 7px 16px;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 1px 5px #017ea219;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.delete-btn {
+  background: #fdeddc;
+  color: #994a07;
+}

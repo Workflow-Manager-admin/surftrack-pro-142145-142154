@@ -1,0 +1,61 @@
+.session-card {
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 2px 16px #017ea208, 0 0px 0.5px #1de9b644;
+  padding: 18px 18px 9px 18px;
+  margin: 0 auto;
+  min-width: 0;
+  max-width: 400px;
+  cursor: pointer;
+  transition: transform 0.13s, box-shadow 0.15s;
+  border: 2px solid #f1e9d1;
+  position: relative;
+}
+.session-card:hover {
+  transform: scale(1.018) translateY(-2px);
+  box-shadow: 0 7px 28px #1de9b622, 0 3.4px 2.5px #017ea208;
+}
+.session-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.session-mood {
+  font-size: 1.5rem;
+  margin-right: 14px;
+}
+.session-date {
+  flex: 1 1 auto;
+  color: #017ea2cc;
+}
+.delete-btn {
+  background: #ffd9b8;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  color: #c95d0a;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background 0.13s;
+}
+.delete-btn:hover {
+  background: #f1e9d1;
+}
+.session-details {
+  margin-top: 2px;
+  font-size: 1rem;
+}
+.detail-row {
+  margin: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #017ea2a8;
+}
+.detail-row.note {
+  font-style: italic;
+  color: #444b;
+}
